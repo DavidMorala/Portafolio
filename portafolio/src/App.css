@@ -1,0 +1,564 @@
+* {
+  cursor: none;
+}
+
+body {
+  background: radial-gradient(110% 70% at 50% 10%, rgb(15, 6, 36) 40%, #000 100%);
+  background-repeat: no-repeat;
+  background-color: #000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.App-body {
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+#naranja {
+  color: #ff8000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#nombre {
+
+  color: rgb(120, 197, 223);
+}
+
+#tag1 {
+  font-size: 10px;
+  height: 5px;
+  background-color: lightblue;
+  border-radius: 5px;
+  color: #444;
+  padding: 2px;
+  margin-left: 15px;
+}
+
+#bio {
+  width: 380px;
+  margin-top: -10px;
+  font-size: 2vmin;
+  color: white;
+}
+
+#lugar {
+  color: rgb(194, 194, 53);
+}
+
+#desweb {
+  color: rgb(49, 37, 156);
+}
+
+
+#cara {
+  height: 75px;
+  width: 50px;
+  margin-top: -25%;
+  margin-left: 15%;
+}
+
+
+#foto {
+  background-color: lightblue;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  overflow: visible;
+  margin-top: 20%;
+  z-index: 2;
+}
+
+
+
+
+#linkedin {
+  height: 30px;
+  width: 30px;
+  cursor: none;
+}
+
+
+#lin {
+  background-color: rgb(49, 37, 156);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  z-index: 2;
+  cursor: none;
+  border: 1px solid white;
+}
+
+
+
+#lin:hover {
+  box-shadow: 0px 0px 20px white;
+}
+
+#correo {
+  margin-left: -1.5px;
+  margin-top: 8%;
+  height: 30px;
+  width: 30px;
+
+}
+
+#git {
+  margin-left: -1.3px;
+  margin-top: 8%;
+  height: 30px;
+  width: 30px;
+
+}
+
+#contacto {
+  z-index: 2;
+}
+
+.conta {
+  float: left;
+  margin: 10px;
+}
+
+
+#foto:hover {
+  transform: scale(1.5);
+
+}
+
+#box {
+  height: 500px;
+  width: 300px;
+  color: rgb(72, 143, 167);
+  margin: 120px 20px 20px 20px;
+  float: left;
+  background-color: rgb(15, 6, 36);
+  text-align: center;
+  border-radius: 10px;
+  border: white 1px solid;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+  margin-left: -40px;
+
+}
+
+.cursor {
+  background-color: white;
+  opacity: 0.5;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  border: 2px solid black;
+}
+
+
+#sorteo {
+
+  width: 600px;
+  border-radius: 5px;
+  margin: 20px;
+  float: left;
+}
+
+#futbol {
+  width: 600px;
+  border-radius: 5px;
+  margin: 20px;
+  float: left;
+
+}
+
+
+#texpro {
+  color: lightblue;
+  float: left;
+}
+
+#texpro1 {
+  float: left;
+  color: lightblue;
+}
+
+
+
+.bolas {
+  width: 60px;
+  height: 60px;
+}
+
+#bolaHtml {
+
+  background-color: rgb(30, 13, 70);
+  margin-top: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+  border: 1px solid white;
+  margin-left: 15%;
+  animation: rotacion 20s infinite linear;
+  position: absolute;
+  transform-origin: 100px 100px;
+  animation-name: rotacion1;
+}
+
+
+#bolaCss {
+
+  background-color: rgb(30, 13, 70);
+  margin-top: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+  border: 1px solid white;
+  margin-left: 20%;
+  animation: rotacion 20s infinite linear;
+  position: absolute;
+  animation-name: rotacion2;
+  transform-origin: 100px 100px;
+}
+
+#bolaPhp {
+
+  background-color: rgb(30, 13, 70);
+  margin-top: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+  border: 1px solid white;
+  margin-left: 25%;
+  position: absolute;
+  animation: rotacion 20s infinite linear;
+  animation-name: rotacion3;
+  transform-origin: 100px 100px;
+}
+
+#bolaJs {
+
+  background-color: rgb(30, 13, 70);
+  margin-top: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+  border: 1px solid white;
+  margin-left: 15%;
+  position: absolute;
+  animation: rotacion 20s infinite linear;
+  animation-name: rotacion4;
+  transform-origin: 70px 70px;
+}
+
+
+#bolaHtml1 {
+
+  background-color: rgb(30, 13, 70);
+  margin-top: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+  border: 1px solid white;
+  margin-left: 15%;
+  animation: rotacion 20s infinite linear;
+  position: absolute;
+  transform-origin: 100px 100px;
+  animation-name: rotacion1;
+}
+
+
+#bolaCss1 {
+
+  background-color: rgb(30, 13, 70);
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+  border: 1px solid white;
+  margin-left: 5%;
+  animation: rotacion 20s infinite linear;
+  position: absolute;
+  animation-name: rotacion2;
+  transform-origin: 100px 100px;
+}
+
+
+#bolaJs1 {
+
+  background-color: rgb(30, 13, 70);
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+  border: 1px solid white;
+  margin-left: 10%;
+  position: absolute;
+  animation: rotacion 20s infinite linear;
+  animation-name: rotacion4;
+  transform-origin: 70px 70px;
+}
+
+#proy {
+  position: relative;
+}
+
+.textoProy {
+  float: left;
+}
+
+
+
+@keyframes rotacion {
+  to {
+
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes rotacion1 {
+  from {
+    transform: rotateZ(0deg) rotateY(0deg) rotateX(0deg)
+  }
+
+  to {
+    transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
+  }
+}
+
+@keyframes rotacion2 {
+  from {
+    transform: rotateZ(90deg) rotateY(90deg) rotateX(90deg);
+  }
+
+  to {
+    transform: rotateZ(450deg) rotateY(450deg) rotateX(450deg);
+  }
+}
+
+
+@keyframes rotacion3 {
+  from {
+    transform: rotateZ(180deg) rotateY(180deg) rotateX(180deg);
+  }
+
+  to {
+    transform: rotateZ(540deg) rotateY(540deg) rotateX(540deg);
+  }
+}
+
+@keyframes rotacion4 {
+  from {
+    transform: rotateZ(270deg) rotateY(270deg) rotateX(270deg);
+  }
+
+  to {
+    transform: rotateZ(630deg) rotateY(630deg) rotateX(630deg);
+  }
+}
+
+
+
+#proy1 {
+  margin-top: 100px;
+}
+
+
+@media (max-width: 1202px) {
+
+
+  #sorteo {
+
+    width: 400px;
+
+  }
+
+
+  #futbol {
+
+    width: 400px;
+
+  }
+
+}
+
+
+
+@media (max-width: 1001px) {
+
+
+  #proy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #sorteo {
+    margin: 0pxauto;
+    float: none;
+
+  }
+
+  #futbol {
+
+    float: none;
+
+  }
+
+
+  #texpro {
+
+    float: none;
+  }
+
+  #texpro1 {
+    float: none;
+
+  }
+
+  #sorteo {
+
+    width: 600px;
+
+  }
+
+
+  #bolaHtml {
+
+
+    margin-top: 15%;
+
+
+    margin-left: 25%;
+
+
+
+  }
+
+
+  #bolaCss {
+
+
+    margin-top: 15%;
+
+    margin-left: 35%;
+
+  }
+
+  #bolaPhp {
+    margin-top: 15%;
+
+    margin-left: 35%;
+
+  }
+
+  #bolaJs {
+
+    margin-top: 15%;
+
+    margin-left: 25%;
+
+  }
+
+
+
+  #proy1 {
+    margin-top: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 1000px;
+  }
+
+  #texpro1 {
+    position: absolute;
+    margin-top: 50%;
+    margin-left: -25%;
+  }
+
+  #bolaHtml1 {
+
+
+    margin-top: 60%;
+
+
+    margin-left: -10%;
+
+
+
+  }
+
+
+  #bolaCss1 {
+
+
+    margin-top: 60%;
+
+    margin-left: -5%;
+
+    
+
+  }
+
+
+  #bolaJs1 {
+
+    margin-top: 60%;
+
+    margin-left: -10%;
+
+  }
+
+  #futbol{
+    
+    width: 600px;
+  }
+
+  
+
+
+}
+
+
+
+@media (max-width: 968px) {
+
+
+  #texpro1 {
+    position: absolute;
+    margin-top: 53%;
+    margin-left: -25%;
+  }
+
+
+}
